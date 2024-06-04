@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	display: none;
+	background-color: transparent;
+}
+
+#box {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 20vw;
+	height: 100%;
+	background-color: rgba(2, 54, 78, 0.5);
+}
+
+.content {
+	position: absolute;
+	padding: 1rem;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.job_box {
+	overflow: auto;
+}
+
+.job {
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-family: Poppins, sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+}
+
+#setjob {
+	width: 100%;
+	margin: 1rem 0 0 0;
+	height: 2.5em;
+	color: white;
+	font-weight: 800;
+	font-size: 1rem;
+	border: none;
+	background-color: rgb(0, 150, 244);
+	transition: 0.3s ease;
+}
+
+#setjob:hover {
+	transition: 0.3s ease;
+	background-color: rgb(49, 87, 111);
+}
+.umneployed {
+	margin: 1rem 0 0 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(255, 255, 255, 0.11);
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(0, 166, 255);
+	border-radius: 10px;
+}
