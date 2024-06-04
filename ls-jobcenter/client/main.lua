@@ -26,3 +26,9 @@ RegisterNUICallback('CloseUI', function()
     inMenu = false
     SetNuiFocus(false, false)
 end)
+
+exports("OpenJobCenter", OpenJobCenter)
+
+RegisterNetEvent('ls-jobcenter:open_jobcenter', function()
+    OpenJobCenter()
+end)
