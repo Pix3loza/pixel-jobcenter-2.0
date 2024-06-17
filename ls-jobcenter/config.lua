@@ -1,5 +1,6 @@
 Config = {}
 
+Config.framework = 'ESX'
 
 Config.Unemployed = {
     name = 'unemployed',
